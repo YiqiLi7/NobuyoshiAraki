@@ -1,0 +1,45 @@
+
+body{
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+
+.flex-item {
+    padding: 2px;
+    margin-top: 30px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+
+
+.image{
+    width: 1000px;
+}
+
+.container {
+    position: relative;
+  }
+  
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.sign{
+    width: 10%;
+    height: auto;
+}
